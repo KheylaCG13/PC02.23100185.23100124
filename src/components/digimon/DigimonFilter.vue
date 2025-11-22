@@ -46,15 +46,27 @@ export default {
   flex: 1;
   padding: 8px 10px;
   border-radius: 6px;
-  border: 1px solid #ccc;
-  background: #fff;
-  color: #111;
+  border: 1px solid #333;
+  background: #0b0b0b;
+  color: #fff;
+}
+.digimon-filter input::placeholder {
+  color: #bbb;
 }
 .digimon-filter select {
   padding: 8px 10px;
   border-radius: 6px;
-  border: 1px solid #ccc;
-  background: #fff;
-  color: #111;
+  border: 1px solid #333;
+  background: #0b0b0b;
+  color: #fff;
+}
+.digimon-filter select option {
+  background: #0b0b0b; /* ensure dropdown options match dark theme where supported */
+  color: #fff;
+}
+.digimon-filter input:focus,
+.digimon-filter select:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.06);
 }
 </style>
