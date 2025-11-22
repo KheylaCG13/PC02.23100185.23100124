@@ -1,3 +1,4 @@
+q
 <template>
   <link rel="preconnect" href="https://fonts.gstatic.com" />
   <link
@@ -195,7 +196,6 @@ export default {
             position: 'top',
             message: 'Inicio de sesión correcto',
           })
-          // Redirigir a la página de Digimons al iniciar sesión
           this.$router.push('/digimon')
         })
         .catch((error) => {
