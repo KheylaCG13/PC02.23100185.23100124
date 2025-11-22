@@ -75,5 +75,17 @@ export default {
 }
 .page-digimon h2 {
   margin-bottom: 12px;
+  color: #fff;
+  font-size: 36px;
+  font-weight: 600;
+}
+
+/* Force main text color inside page to light so it shows on dark background,
+   but keep cards' internal text (on white) readable by scoping to headings and small text only */
+.page-digimon p,
+.page-digimon label,
+.page-digimon .q-notification,
+.page-digimon .filter-label {
+  color: #eee;
 }
 </style>
